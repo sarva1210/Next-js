@@ -15,7 +15,6 @@ const page = () => {
   return (
     <div className="p-6">
       <h1>all products lists here</h1>
-
       <div>
         {products.map((elem) => (
           <h1 onClick={() => console.log("hello")}>{elem.title}</h1>
